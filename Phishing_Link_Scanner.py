@@ -16,7 +16,7 @@ def validate_url(url):
 
 # Function to check URL against VirusTotal API
 def check_url_reputation(url):
-    api_key = "02ff436b6a8be17f8d8f0d2e2ec432aa695f9edae2e80f3010287d12f5e09cf0"  # Replace with your VirusTotal API key
+    api_key = ""  # Replace with your VirusTotal API key
     vt_url = f"https://www.virustotal.com/api/v3/urls"
     
     headers = {
